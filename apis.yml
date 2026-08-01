@@ -1,7 +1,26 @@
 aid: sdsa
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sdsa.png
 name: SDSA
-description: 'SDSA is a company surfaced as a portfolio company of sv-angel and added to the API Evangelist
-  network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.'
+description: 'SDSA (stylized as /dev/agents) is a stealth-stage startup building what it
+  describes as a next-generation operating system for AI agents, aiming to make agentic
+  applications a robust part of everyday consumer software through new UI patterns, a
+  reimagined privacy model, and a developer platform for shipping more capable apps. The
+  company was founded by David Singleton (former Stripe CTO), Ficus Kirkpatrick, Hugo Barra,
+  and Nicholas Jitkoff, and is backed by SV Angel. As of this profile the company is
+  pre-product: sdsa.ai is a single marketing/recruiting page with no public API, developer
+  documentation, SDKs, or developer portal yet available. This entry was added to the API
+  Evangelist network as a portfolio lead and enriched with what is publicly verifiable.'
 url: https://raw.githubusercontent.com/api-evangelist/sdsa/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Ai
+- AI Agents
+- Agentic
+- Operating System
+- Developer Platform
+- Stealth Startup
+- Consumer Software
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +47,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sdsa-domain-security.yml
 - type: Website
   url: https://sdsa.ai
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
